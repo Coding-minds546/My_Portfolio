@@ -1,0 +1,45 @@
+h1 {
+    color: green;
+   
+
+}
+
+
+
+p{
+    font-family: cursive;
+    font-size: large;
+}
+.Games{
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    background-position: center;
+}
+
+.top{
+display: flex;
+flex-wrap: wrap;
+background-color: bisque;
+justify-content: space-between;
+padding-top: 100px;
+}
+
+.item{
+    position: relative;
+
+}
+.item p{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
